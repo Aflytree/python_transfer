@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+N_recip	global.h	/^    short *N_recip;  \/\/$/;"	m	struct:prog_count_and_info	access:public
+PHASE_INTER_LEN	main.cpp	14;"	d	file:
+PROG_COUNT	global.h	13;"	d
+RECEIVE_INTER_LEN	main.cpp	15;"	d	file:
+_GLOBAL_H	global.h	11;"	d
+act	global.h	/^    int act;                \/\/ phase control no need$/;"	m	struct:prog_count_and_info	access:public
+avg_addr	global.h	/^    int (*avg_addr)[2]; \/\/$/;"	m	struct:prog_count_and_info	access:public
+avg_num	global.h	/^    int avg_num;     \/\/               $/;"	m	struct:prog_count_and_info	access:public
+fb_num	global.h	/^    int fb_num;    \/\/$/;"	m	struct:prog_count_and_info	access:public
+main	main.cpp	/^int main(){$/;"	f	signature:()
+main	main.s	/^main:$/;"	l
+n_rece_con	main.cpp	/^    int (*n_rece_con)[3];$/;"	m	struct:n_rece_control	file:	access:public
+n_rece_control	main.cpp	/^struct n_rece_control{$/;"	s	file:
+n_rece_control::n_rece_con	main.cpp	/^    int (*n_rece_con)[3];$/;"	m	struct:n_rece_control	file:	access:public
+nrev_list	global.h	/^    int (*nrev_list)[3];    \/\/$/;"	m	struct:prog_count_and_info	access:public
+objects	Makefile	/^objects=main.o$/;"	m
+ph_con	main.cpp	/^    int (*ph_con)[3];$/;"	m	struct:phase_control	file:	access:public
+phase_control	main.cpp	/^struct phase_control{$/;"	s	file:
+phase_control::ph_con	main.cpp	/^    int (*ph_con)[3];$/;"	m	struct:phase_control	file:	access:public
+phase_list	global.h	/^    int (*phase_list)[3];   \/\/$/;"	m	struct:prog_count_and_info	access:public
+prog_count_and_info	global.h	/^struct prog_count_and_info$/;"	s
+prog_count_and_info::N_recip	global.h	/^    short *N_recip;  \/\/$/;"	m	struct:prog_count_and_info	access:public
+prog_count_and_info::act	global.h	/^    int act;                \/\/ phase control no need$/;"	m	struct:prog_count_and_info	access:public
+prog_count_and_info::avg_addr	global.h	/^    int (*avg_addr)[2]; \/\/$/;"	m	struct:prog_count_and_info	access:public
+prog_count_and_info::avg_num	global.h	/^    int avg_num;     \/\/               $/;"	m	struct:prog_count_and_info	access:public
+prog_count_and_info::fb_num	global.h	/^    int fb_num;    \/\/$/;"	m	struct:prog_count_and_info	access:public
+prog_count_and_info::nrev_list	global.h	/^    int (*nrev_list)[3];    \/\/$/;"	m	struct:prog_count_and_info	access:public
+prog_count_and_info::phase_list	global.h	/^    int (*phase_list)[3];   \/\/$/;"	m	struct:prog_count_and_info	access:public
+prog_count_and_info::prog_pic	global.h	/^    int prog_pic[2];$/;"	m	struct:prog_count_and_info	access:public
+prog_count_and_info::rc	global.h	/^    struct rc_conf *rc; \/\/$/;"	m	struct:prog_count_and_info	typeref:struct:prog_count_and_info::rc_conf	access:public
+prog_count_and_info::swi	global.h	/^    int swi; \/\/ ping-pong$/;"	m	struct:prog_count_and_info	access:public
+prog_pic	global.h	/^    int prog_pic[2];$/;"	m	struct:prog_count_and_info	access:public
+rc	global.h	/^    struct rc_conf *rc; \/\/$/;"	m	struct:prog_count_and_info	typeref:struct:prog_count_and_info::rc_conf	access:public
+swi	global.h	/^    int swi; \/\/ ping-pong$/;"	m	struct:prog_count_and_info	access:public
+targetCles	Makefile	/^targetCles=test2$/;"	m
